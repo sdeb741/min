@@ -8,11 +8,13 @@
     <style>
         textarea
         {
-            width:90%;
+            width: 50%;
             display:block;
-            padding: 1rem;
-            margin: 1rem;
+            padding: 2rem;
+            margin: 2rem;
             height: 10vh;
+            margin: auto;
+            display: block;
         }
 
         #Output{
@@ -22,13 +24,23 @@
             margin: 1rem;
             padding: 1rem;
         }
+        button 
+        {
+            background-color: var(--primary);
+            border: none;
+            margin: 1rem 0rem;
+            padding: 1rem 2rem;
+            font-family: 'Kalam', cursive;
+            font-size: large;
+        }
+       
+        
     </style>
 </head>
 
 <body>
     <h1>Talk banana</h1>
     <textarea id="txt-Input" placeholder="Enter something"></textarea>
-
     <button id="btn-Translate">Translate</button>
 
     <div style="font-size: larger;">Output will come here</div>
