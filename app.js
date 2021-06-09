@@ -1,7 +1,14 @@
 var btnTranslate = document.querySelector("#btn-Translate");
 var txtInput = document.querySelector("#txt-Input");
+var outputDiv= document.querySelector("#Output");
 
-console.log(txtInput);
+
+
+outputDiv.innerText="Sayan Deb";
+
+
+console.log(outputDiv);
+
 
 
 
