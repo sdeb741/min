@@ -11,7 +11,7 @@ function getTranslationURL(text)
 
 function errorHandler(error)
 {
-    console.log("Error occured", error);
+    console.log("Error occured", error);                                   
     alert("Something wrong with server");
 }
 
@@ -32,6 +32,5 @@ function clickHandler()
 };
 
 btnTranslate.addEventListener("click",clickHandler);
-
 
 
