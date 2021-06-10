@@ -24,24 +24,20 @@
             margin: 1rem;
             padding: 1rem;
         }
-        button 
-        {
-            background-color: var(--primary);
-            border: none;
-            margin: 1rem 0rem;
-            padding: 1rem 2rem;
-            font-family: 'Kalam', cursive;
-            font-size: large;
-        }
-       
         
+
+        button
+        {
+            display: block;
+            margin: auto;
+        }
     </style>
 </head>
 
 <body>
     <h1>Talk banana</h1>
-    <textarea id="txt-Input" placeholder="Enter something"></textarea>
-    <button id="btn-Translate">Translate</button>
+    <div><textarea id="txt-Input" placeholder="Enter something"></textarea>
+    <button id="btn-Translate">Translate</button></div>
 
     <div style="font-size: larger;">Output will come here</div>
     <div id="Output"></div>
